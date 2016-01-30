@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 
 <body>
-  <header class="jumbotron">
-    <h1>Hello every
-    <a class="btn btn-primary" href="">Button!</a>one</h1>
-  </header>
-  <section class="container">
-    <article class="col-xs-5">
-      <div class="alert alert-danger">5</div>
-    </article>
-    <article class="col-xs-7">
-      <div class="alert alert-info">7</div>
-    </article>
-    
-    <article class="alert alert-warning">This is an alert!</article>
-    
-    <article>
-      <ul class="list-group">
-        <li class="list-group-item ">Item 1</li>
-        <li class="list-group-item">Item 2</li>
-        <li class="list-group-item">Item 3</li>
-      </ul>
-    </article>
-  </section>
-  <div></div>
-  <section class="container">
-    <article class="col-xs-4">
-    <article class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">panel title
-        </div>
-      </div>
-      <div class="panel-body">
-        <p>this is the panel body</p>
-      </div>
-    </article>
-    </article>
-    
-    <article class="col-xs-4">
-    <article class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">panel title
-        </div>
-      </div>
-      <div class="panel-body">
-        <p>this is the panel body</p>
-      </div>
-    </article>
-    </article>
-    
-    <article class="col-xs-4">
-    <article class="panel panel-primary">
-      <div class="panel-heading">
-        <div class="panel-title">panel title
-        </div>
-      </div>
-      <div class="panel-body">
-        <p>this is the panel body</p>
-      </div>
-    </article>
-    </article>
-  </section>
-  <footer class="well">copywright 2016</footer>
+<header class="jumbotron">
+<h1>Hello Everyone!</h1>
+<a class="btn btn-warning">Button!</a>
+</header>
+<section class="container">
+<article class="col-xs-5">
+<div class="alert alert-danger">5</div>
+</article>
+<article class="col-xs-7">
+<div class="alert alert-info">7</div>
+</article>
+<article class="alert alert-warning">This is an alert!</article>
+
+<article>
+<ul class="list-group">
+<li class="list-group-item list-group-item-active">Item 1</li>
+<li class="list-group-item list-group-item-success">Item 2</li>
+<li class="list-group-item list-group-item-info">Item 3</li>
+</ul>
+</article>
+</section>
+<div></div>
+
+<section class="container">
+<article classs="col-xs-4">
+<article class="panel panel-primary">
+<div class="panel-heading">
+<div class="panel-title">Panel Title</div>
+</div>
+<div class="panel-body">
+<p>This is the panel body</p>
+</div>
+</article>
+</article>
+
+<article classs="col-xs-4">
+<article class="panel panel-primary">
+<div class="panel-heading">
+<div class="panel-title">Panel Title</div>
+</div>
+<div class="panel-body">
+<p>This is the panel body</p>
+</div>
+</article>
+</article>
+
+<article classs="col-xs-4">
+<article class="panel panel-primary">
+<div class="panel-heading">
+<div class="panel-title">Panel Title</div>
+</div>
+<div class="panel-body">
+<p>This is the panel body</p>
+</div>
+</article>
+</article>
+</section>
+
+<footer class="well">
+Copyright 2016
+</footer>
 </body>
 
 </html>
