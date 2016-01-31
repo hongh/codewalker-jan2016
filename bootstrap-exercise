@@ -14,8 +14,8 @@
     <article class="col-xs-7">
       <div class="alert alert-info">7</div>
     </article>
+    
     <article class="alert alert-warning">This is an alert!</article>
-
     <article>
       <ul class="list-group">
         <li class="list-group-item ">Item 1</li>
