@@ -1,0 +1,64 @@
+<html>
+  <body>
+    <input id="myName" type="text" />
+    <!-- 
+    Comment here 
+    -->
+    <br>
+    <label>
+      <input id="myCheckbox" type="checkbox" /> Check it
+    </label>
+    <br>
+    
+   
+    <option selected disabled>Select City</option> <select id="myCity">
+      <option>San Francisco</option>
+      <option>Berkeley</option>
+      <option>San Mateo</option>
+      <option>Concord</option>
+      <option>San Jose</option>
+      <option>Oakland</option>
+    </select>
+    
+    <br>
+    
+    <button id="myButton">Click me!</button>
+    <div id="message"></div>
+    
+    
+    <script>
+      var myButtonElement = document.getElementById("myButton");
+      var myNameElement = document.getElementById("myName");
+      var messageElement = document.getElementById("message");
+      var myCheckboxElement = document.getElementById("myCheckbox");
+      var myCityElement = document.getElementById("myCity");
+      
+      myButtonElement.onclick = function() {
+        if (myCheckboxElement.checked || myNameElement.value != "") {
+          messageElement.innerHTML = messageElement.innerHTML 
+          + "<div style='color: red'>Clicked " + myNameElement.value 
+          + "!</div>";
+  
+      if (myCityElement.value == "Concord") {
+        myNameElement.disabled = true;
+      } else {
+        myNameElement.disabled = false;
+        alert("No, that city won't do.");
+        myCityElement.value = "San Mateo";
+      }  } else {
+          alert("Check the box!");
+        }
+      };
+      
+      myCityElement.onchange = function() {
+        alert("No, that city won't do.");
+        myCityElement.value = "San Mateo";
+              }
+    </script>
+  </body>
+</html>
+
+
+
+
+
