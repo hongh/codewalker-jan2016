@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="script1.js"></script>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <center>
+      <h1>Volunteer/Donor Survey</h1></center>
+  </header>
+  <div class="center-block">
+    <center><a class="btn btn-success" href="">Submit!</a></center>
+    <br>
+    <br>
+    <label class="bg-info">First Name:</label>
+    <input type="text" placeholder="First Name" />
+    <label class="bg-info">Last Name:</label>
+    <input type="text" placeholder="Last Name" />
+    <br>
+    <label class="bg-info"> Are you over 18 years old?
+      <input type="checkbox" />
+    </label>
+    <br>
+    <label class="bg-info">Gender:</label>
+    <br>
+    <label> Male
+      <input type="radio" name="gender" /> </label>
+    <label>
+      Female
+      <input type="radio" name="gender" /> </label>
+    <label> Refused
+      <input type="radio" name="gender" /> </label>
+    <br>
+    <br>
+    <label class="bg-info"> Income Level:
+      <select>
+        <option> Less than $50,000 </option>
+        <option> Between $50,000 and $75,000 </option>
+        <option> Over $75,000 </option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label class="bg-info">For each of the following questions, please select a choice:</label>
+    <br>
+    <table border="1" cellpadding="5" aligh="center">
+      <tr>
+        <th>Question:</th>
+        <th>Yes</th>
+        <th>No</th>
+        <th>Don't know</th>
+      </tr>
+      <tr>
+        <td>Would you be interested in volunteering?</td>
+        <td aligh="center">
+          <input type="radio" name="volunteer" />
+        </td>
+        <td aligh="center">
+          <input type="radio" name="volunteer" />
+        </td>
+        <td aligh="center">
+          <input type="radio" name="volunteer" />
+        </td>
+      </tr>
+      <tr>
+        <td>Would you be interested in donate money?</td>
+        <td aligh="center">
+          <input type="radio" name="donate" />
+        </td>
+        <td>
+          <input type="radio" name="donate" />
+        </td>
+        <td>
+          <input type="radio" name="donate" />
+        </td>
+      </tr>
+    </table>
+    <br>
+    <label class="bg-info">Suggestions:</label>
+    <br>
+    <textarea placeholder="Type your suggestions here..." class="form-control" rows="3"></textarea>
+    <br>
+    <center><a class="btn btn-success" href="">Submit!</a></center>
+  </div>
+</body>
+
+</html>
