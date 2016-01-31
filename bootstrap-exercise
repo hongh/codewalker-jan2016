@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <body>
 <header class="jumbotron">
@@ -50,7 +50,7 @@
 </article>
 </article>
 
-<article classs="col-xs-4">
+<article class="col-xs-4">
 <article class="panel panel-primary">
 <div class="panel-heading">
 <div class="panel-title">Panel Title</div>
